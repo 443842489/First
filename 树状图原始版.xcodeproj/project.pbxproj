@@ -73,14 +73,6 @@
 		9988EAEB1EC5A426002631F6 /* 树状图原始版UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "树状图原始版UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9988EAEF1EC5A426002631F6 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		9988EAF11EC5A426002631F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99978F1E1EC9453A00EA24EB /* BaseUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUrl.h; sourceTree = "<group>"; };
-		99978F1F1EC9453A00EA24EB /* CellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDelegate.h; sourceTree = "<group>"; };
-		99978F201EC9453A00EA24EB /* CellSetDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSetDataDelegate.h; sourceTree = "<group>"; };
-		99978F211EC9453A00EA24EB /* ConstantDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantDefine.h; sourceTree = "<group>"; };
-		99978F221EC9453A00EA24EB /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
-		99978F231EC9453A00EA24EB /* SmarketPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmarketPrefixHeader.pch; sourceTree = "<group>"; };
-		99978F241EC9453A00EA24EB /* SWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWidget.h; sourceTree = "<group>"; };
-		99978F251EC9453A00EA24EB /* ViewPassValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPassValueDelegate.h; sourceTree = "<group>"; };
 		99978F271EC9453A00EA24EB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		99978F281EC9453A00EA24EB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		99978F291EC9453A00EA24EB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -124,6 +116,7 @@
 		99978F611EC9454C00EA24EB /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		99978F621EC9454C00EA24EB /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		99978F631EC9454C00EA24EB /* 树状图说明 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "树状图说明"; sourceTree = "<group>"; };
+		99978FB81EC9497100EA24EB /* ConstantDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,14 +221,7 @@
 		99978F1D1EC9453A00EA24EB /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				99978F1E1EC9453A00EA24EB /* BaseUrl.h */,
-				99978F1F1EC9453A00EA24EB /* CellDelegate.h */,
-				99978F201EC9453A00EA24EB /* CellSetDataDelegate.h */,
-				99978F211EC9453A00EA24EB /* ConstantDefine.h */,
-				99978F221EC9453A00EA24EB /* Enums.h */,
-				99978F231EC9453A00EA24EB /* SmarketPrefixHeader.pch */,
-				99978F241EC9453A00EA24EB /* SWidget.h */,
-				99978F251EC9453A00EA24EB /* ViewPassValueDelegate.h */,
+				99978FB81EC9497100EA24EB /* ConstantDefine.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
